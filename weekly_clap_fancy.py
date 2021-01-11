@@ -10,10 +10,10 @@ def clap():
     playsound('clapping.mp3')
 
 def main():
-    schedule.every().tuesday.at("20:00").do(clap)
+    schedule.every().thursday.at("20:00").do(clap)
 
     print(ascii_art)
-    print("Clapping will play every Tuesday at 8pm...")
+    print("Clapping will play every Thursday at 8pm...")
     print("Enter 'quit' to stop running:")
 
     while True:
